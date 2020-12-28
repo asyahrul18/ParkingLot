@@ -1,10 +1,16 @@
-import java.net.Inet4Address;
-import java.util.HashMap;
+package WithInputFile;
+
+import WithInterative.Home;
+
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Home {
-    public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
+public class WithInputFile {
+    public static void main(String[] args) throws FileNotFoundException {
+        File fileText = new File("fileInputs.txt");
+
+        Scanner input = new Scanner(fileText);
 
         String[] lot = null;
         String[] temp = null;
@@ -13,7 +19,7 @@ public class Home {
 
         int perulangan = 1;
         while (perulangan > 0){
-            String requestUser = input.nextLine().trim();
+            String requestUser = input.nextLine();
             String[] requestUserArray = requestUser.split(" ");
 
             /*Request Program Exit*/
@@ -87,9 +93,6 @@ public class Home {
             }
             perulangan++;
         }
-
-        System.out.println("ok");
-
     }
 
     public void status(String[] requestUserArray, String[] lot){
