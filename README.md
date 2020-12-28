@@ -15,5 +15,3 @@ fungsi yang tersedia pada program ini berupa :
     Fungsi ini digunakan untuk melihat slot parkir berdasarkan warna dari kendaraan.
 - slot_number_for_registration_number
     Fungsi ini digunakan untuk melihat posisi slot parkir berdasarkan nomor kendaraan.
-    
-Kekurangan dari assignment ini yaitu Program belum dapat membaca inputan yang tipenya berupa file, jadi baru bisa secara interaktif melalui command prompt.
