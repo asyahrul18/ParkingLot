@@ -1,5 +1,5 @@
 # Parking Lot
-Program ini merupakan implementasi dari case parking lot, yang mana inputannya berupa interaktif.
+Program ini merupakan implementasi dari case parking lot, yang mana inputannya berupa interaktif maupun text.
 fungsi yang tersedia pada program ini berupa :
 - create_parking_lot
     Fungsi ini membuat jumlah slot parkir yang tersedia.
